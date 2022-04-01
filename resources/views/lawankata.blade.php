@@ -6,10 +6,10 @@
     <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 @endsection
 @section('content')
-    <div class="mx-auto w-9/12">
+    <div class="mx-auto w-9/12" data-aos="fade" data-aos-delay="200" data-aos-duration="700">
         <p class="mt-4 text-xl font-bold">Lawan Kata</p>
         <form action="">
-            <div class="">
+            <div class="hidden">
                 @php
                     $j = count($data['listtingkatan']);
                 @endphp
@@ -25,11 +25,83 @@
                     </select>
                 </div>
             </div>
+            @if (isset($data['hasilkata']))
+                <div class="flex mt-3 -mb-3">
+                    <p class="">Apakah kata yang anda maksud&nbsp;</p>
+                    <a href="lawankata?carilawan={{ pathinfo($data['hasilkata'], PATHINFO_FILENAME) }}&cari=cari"
+                        class="font-extrabold text-blue-600 italic hover:underline">{{ pathinfo($data['hasilkata'], PATHINFO_FILENAME) }}</a>
+                    <p class="">&nbsp;?</p>
+                </div>
+            @endif
             <div class="grid grid-cols-11 gap-7 mt-7">
                 <div class="col-span-5">
                     <textarea class="w-full px-3 py-2 rounded-md border-gray-700 border-2 h-28" name="carilawan" rows="4"
                         placeholder="Masukkan Kata"
                         cols="50">{{ isset($data['listkata'][0]['namakata']) ? pathinfo($data['listkata'][0]['namakata'], PATHINFO_FILENAME) : '' }}</textarea>
+                    @if (isset($data['hasilkata']))
+                        <div class="mt-3 -mb-3 p-5 bg-bali-50 border-bali-500 border-2">
+                            <p class="text-lg font-semibold mb-2">Levelstein Distance&nbsp;</p>
+                            <div class="">
+                                <p class="font-semibold mb-1"> Menghitungan Jarak Kata Inputan dengan kata yang memilikiLawanKata didatabase </p>
+                                @php
+                                    $count = count($data['listdistance']);
+                                @endphp
+                                @for ($i = 0; $i < $count; $i++)
+                                    <div class="flex mb-3">
+                                        <p>{{ $data['carilawan'] }} =>&nbsp;</p>
+                                        <p>{{ pathinfo($data['listlawankata'][$i], PATHINFO_FILENAME) }} &nbsp;</p>
+                                        <p>(Distance = {{ $data['listdistance'][$i] }})</p>
+                                    </div>
+                                @endfor
+                                <div class="">
+                                    <p class="font-semibold mt-5 mb-1"> Mencari Distance Terkecil (Max 2) </p>
+                                    <p>{{ $data['carilawan'] }} => {{ pathinfo($data['hasilkata'], PATHINFO_FILENAME) }} (Distance = {{ $data['resultlvn']['distance'] }})&nbsp;</p>
+                                </div>
+                                <div class="">
+                                    <p class="font-semibold mt-5 mb-1"> Detail Levenshtein Distance </p>
+                                    <div class="flex">
+                                        <div>
+                                            @php
+                                                $arrkata = str_split($data['carilawan']);
+                                            @endphp
+                                            @foreach ($arrkata as $item)
+                                            <p>{{ $item }}</p>
+                                            @endforeach
+                                        </div>
+                                        <div>
+                                            @php
+                                                $count=count($arrkata);
+                                                $count2=count($data['resultlvn']['progresses']);
+                                                $savecount = $count2;
+                                                // dd($count,$data['resultlvn']['progresses'],$savecount);
+                                            @endphp
+                                            @for ($i=0;$i<$savecount;$i++)
+                                            <p>=></p>
+                                            @endfor
+                                        </div>
+                                        <div>
+                                            @for ($i=$savecount-1;$i>=0;$i--)
+                                            {{-- cpy ins --}}
+                                            {{-- <p>{{ $item [0] }}</p>  --}}
+                                            {{-- lata --}}
+                                            <p>{{ $data['resultlvn']['progresses'][$i][2]}}</p>
+                                            @endfor
+                                        </div>
+                                        <div>
+                                            @for ($i=$savecount-1;$i>=0;$i--)
+                                            {{-- cpy ins --}}
+                                            {{-- <p>{{ $item [0] }}</p>  --}}
+                                            {{-- lata --}}
+                                            <p>&nbsp; ({{ $data['resultlvn']['progresses'][$i][0]}})</p>
+                                            @endfor
+                                        </div>
+                                    </div>
+                                    <p>{{ $data['carilawan'] }} => {{ pathinfo($data['hasilkata'], PATHINFO_FILENAME) }} (Distance = {{ $data['resultlvn']['distance'] }})&nbsp;</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    @endif
                 </div>
                 <div class="col-span-1">
                     <button class="w-full bg-bali-600 py-1 hover:bg-bali-500 rounded-md text-bali-50" type="submit"
@@ -47,7 +119,8 @@
                             </div>
                         @else
                             <div class="w-full bg-gray-300 border-gray-700 border-2 px-3 h-28 py-2 rounded-md">
-                                <p>{{ pathinfo($data['listkata'][0]['lawankata'], PATHINFO_FILENAME) }}</p>
+                                <a class="hover:underline hover:font-semibold"
+                                    href="/detail/{{ $data['listkata'][0]['lawankata'] }}">{{ pathinfo($data['listkata'][0]['lawankata'], PATHINFO_FILENAME) }}</a>
                             </div>
                             <p class="font-bold text-gray-600 mt-4">> Bahasa Indonesia</p>
                             <p>{{ pathinfo($data['listkata'][0]['terjemahankata'], PATHINFO_FILENAME) }}</p>

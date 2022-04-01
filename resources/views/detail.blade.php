@@ -541,7 +541,7 @@
                         @foreach (DetailController::sameData($detail, $kata) as $dtl)
                             <p class="text-xl font-bold my-2 {{ $dtl != '-' ? 'hover:underline' : '' }}"><a
                                     {{ $dtl != '-' ? 'href=' . $dtl : '' }}>
-                                    {{ ucfirst(str_replace('.asi', '', $dtl)) }}</a></p>
+                                    {{ ucfirst(pathinfo($dtl,PATHINFO_FILENAME)) }}</a></p>
                         @endforeach
                     </div>
 

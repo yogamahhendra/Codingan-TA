@@ -6,7 +6,7 @@
     <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 @endsection
 @section('content')
-    <div class="mx-auto md:w-9/12">
+    <div class="mx-auto md:w-9/12" data-aos="fade" data-aos-delay="200" data-aos-duration="700">
         <form action="" method="GET">
             <div class="grid grid-cols-3 gap-10 h-full mt-6">
                 <div class="">

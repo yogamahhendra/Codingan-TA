@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\DetailController;
 use App\Http\Controllers\LawankataController;
+use App\Http\Controllers\LevenshteinDistance;
 use App\Http\Controllers\PencarianController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PenjelajahanController;
@@ -31,6 +32,4 @@ Route::get('/pencarian', [PencarianController::class, 'searching']);
 
 Route::get('/lawankata', [LawankataController::class, 'lawankata']);
 
-Route::get('/test', function(){
-    return view('test');
-});
+Route::get('/test', [LevenshteinDistance::class,'lsdistance']);

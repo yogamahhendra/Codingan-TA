@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-class PenjelajahanController extends Controller
+class TestSortController extends Controller
 {
     public function quickSort()
     {
