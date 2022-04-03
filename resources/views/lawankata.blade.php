@@ -1,3 +1,4 @@
+<?php use App\Http\Controllers\levenshteinController; ?>
 @extends('layouts.main')
 @section('head')
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
@@ -42,7 +43,8 @@
                         <div class="mt-3 -mb-3 p-5 bg-bali-50 border-bali-500 border-2">
                             <p class="text-lg font-semibold mb-2">Levelstein Distance&nbsp;</p>
                             <div class="">
-                                <p class="font-semibold mb-1"> Menghitungan Jarak Kata Inputan dengan kata yang memilikiLawanKata didatabase </p>
+                                <p class="font-semibold mb-1"> Menghitungan Jarak Kata Inputan dengan kata yang
+                                    memilikiLawanKata didatabase </p>
                                 @php
                                     $count = count($data['listdistance']);
                                 @endphp
@@ -55,49 +57,58 @@
                                 @endfor
                                 <div class="">
                                     <p class="font-semibold mt-5 mb-1"> Mencari Distance Terkecil (Max 2) </p>
-                                    <p>{{ $data['carilawan'] }} => {{ pathinfo($data['hasilkata'], PATHINFO_FILENAME) }} (Distance = {{ $data['resultlvn']['distance'] }})&nbsp;</p>
+                                    <p>{{ $data['carilawan'] }} => {{ pathinfo($data['hasilkata'], PATHINFO_FILENAME) }}
+                                        (Distance = {{ $data['resultlvn']['distance'] }})&nbsp;</p>
                                 </div>
                                 <div class="">
                                     <p class="font-semibold mt-5 mb-1"> Detail Levenshtein Distance </p>
+                                    <div class="">
+                                        @php
+                                            $datastatus = count($data['resultlvn']['status']);
+                                        @endphp
+                                        @for ($i = $datastatus - 1; $i >= 0; $i--)
+                                            <div class="flex">
+                                                <p class="w-4">{{ $data['resultlvn']['status'][$i][0] }}</p>
+                                                <p class="w-10">&nbsp;=>&nbsp;</p>
+                                                <p class="w-4">{{ $data['resultlvn']['status'][$i][2] }}&nbsp;</p>
+                                                <p class="w-4"> ({{ $data['resultlvn']['status'][$i][1] }})</p>
+                                            </div>
+                                        @endfor
+                                    </div>
+                                    {{-- Matrix --}}
+                                    <p class="font-semibold mt-5 mb-1"> Matrix </p>
+                                    @php
+                                        $str1Array = str_split($data['carilawan']);
+                                        $str2Array = str_split(pathinfo($data['hasilkata'], PATHINFO_FILENAME));
+                                        $str1 = count($str1Array);
+                                        $str2 = count($str2Array);
+                                    @endphp
                                     <div class="flex">
-                                        <div>
-                                            @php
-                                                $arrkata = str_split($data['carilawan']);
-                                            @endphp
-                                            @foreach ($arrkata as $item)
-                                            <p>{{ $item }}</p>
+                                        <p class="w-6">&nbsp;</p>
+                                        <p class="w-6">&nbsp;</p>
+                                        @foreach ($str2Array as $item)
+                                            <p class="w-6">{{ $item }}</p>
+                                        @endforeach
+
+                                    </div>
+
+                                    <div class="flex">
+                                        <div class="w-6">
+                                            <p>&nbsp;</p>
+                                            @foreach ($str1Array as $item)
+                                                <p>{{ $item }}</p>
                                             @endforeach
                                         </div>
-                                        <div>
-                                            @php
-                                                $count=count($arrkata);
-                                                $count2=count($data['resultlvn']['progresses']);
-                                                $savecount = $count2;
-                                                // dd($count,$data['resultlvn']['progresses'],$savecount);
-                                            @endphp
-                                            @for ($i=0;$i<$savecount;$i++)
-                                            <p>=></p>
-                                            @endfor
-                                        </div>
-                                        <div>
-                                            @for ($i=$savecount-1;$i>=0;$i--)
-                                            {{-- cpy ins --}}
-                                            {{-- <p>{{ $item [0] }}</p>  --}}
-                                            {{-- lata --}}
-                                            <p>{{ $data['resultlvn']['progresses'][$i][2]}}</p>
-                                            @endfor
-                                        </div>
-                                        <div>
-                                            @for ($i=$savecount-1;$i>=0;$i--)
-                                            {{-- cpy ins --}}
-                                            {{-- <p>{{ $item [0] }}</p>  --}}
-                                            {{-- lata --}}
-                                            <p>&nbsp; ({{ $data['resultlvn']['progresses'][$i][0]}})</p>
-                                            @endfor
-                                        </div>
+                                        @for ($i = 0; $i <= $str2; $i++)
+                                            <div class="">
+                                                @for ($j = 0; $j <= $str1; $j++)
+                                                    <p class=w-6>{{ $data['resultlvn']['matrix'][$i][$j] }}</p>
+                                                @endfor
+                                            </div>
+                                        @endfor
                                     </div>
-                                    <p>{{ $data['carilawan'] }} => {{ pathinfo($data['hasilkata'], PATHINFO_FILENAME) }} (Distance = {{ $data['resultlvn']['distance'] }})&nbsp;</p>
                                 </div>
+
 
                             </div>
                         </div>

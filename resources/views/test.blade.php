@@ -1,3 +1,4 @@
+<? use App\Http\Controllers\levenshteinController ; ?>
 @extends('layouts.main')
 @section('head')
     
@@ -6,14 +7,11 @@
 <div class="bg-gray-50">
     <div class="flex">
         @php
-            $count = count($results['progresses']);
+        $data = levenshteinController::lscoba("babi","babi");
         @endphp
-        @for($i=$count-1;$i>=0;$i--)
-        <div>
-            <p>{{ $results['progresses'][$i][2] }} &nbsp;</p>
-            <p>{{ $results['progresses'][$i][0] }} &nbsp;</p>
-        </div>
-        @endfor
+
+
+
     </div>
 </div>
 @endsection
