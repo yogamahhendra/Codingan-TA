@@ -7,9 +7,9 @@
     <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 @endsection
 @section('content')
-    <div class="mx-auto w-9/12" data-aos="fade" data-aos-delay="200" data-aos-duration="700">
+    <div class="mx-auto w-11/12 lg:w-10/12 laptopl:w-9/12" data-aos="fade" data-aos-delay="200" data-aos-duration="700">
         <p class="mt-4 text-xl font-bold">Lawan Kata</p>
-        <form action="">
+        <form action="" method="GET">
             <div class="hidden">
                 @php
                     $j = count($data['listtingkatan']);
@@ -35,16 +35,16 @@
                 </div>
             @endif
             <div class="grid grid-cols-11 gap-7 mt-7">
-                <div class="col-span-5">
+                <div class="col-span-11 lg:col-span-5">
                     <textarea class="w-full px-3 py-2 rounded-md border-gray-700 border-2 h-28" name="carilawan" rows="4"
                         placeholder="Masukkan Kata"
                         cols="50">{{ isset($data['listkata'][0]['namakata']) ? pathinfo($data['listkata'][0]['namakata'], PATHINFO_FILENAME) : '' }}</textarea>
                     @if (isset($data['hasilkata']))
                         <div class="mt-3 -mb-3 p-5 bg-bali-50 border-bali-500 border-2">
-                            <p class="text-lg font-semibold mb-2">Levelstein Distance&nbsp;</p>
+                            <p class="text-lg font-semibold mb-2">Levenshtein Distance&nbsp;</p>
                             <div class="">
                                 <p class="font-semibold mb-1"> Menghitungan Jarak Kata Inputan dengan kata yang
-                                    memilikiLawanKata didatabase </p>
+                                    memilikiLawanKata pada individu di Ontologi </p>
                                 @php
                                     $count = count($data['listdistance']);
                                 @endphp
@@ -89,7 +89,6 @@
                                         @foreach ($str2Array as $item)
                                             <p class="w-6">{{ $item }}</p>
                                         @endforeach
-
                                     </div>
 
                                     <div class="flex">
@@ -114,11 +113,11 @@
                         </div>
                     @endif
                 </div>
-                <div class="col-span-1">
+                <div class="col-span-4 lg:col-span-1">
                     <button class="w-full bg-bali-600 py-1 hover:bg-bali-500 rounded-md text-bali-50" type="submit"
                         name="cari" value="cari"> Cari </button>
                 </div>
-                <div class="col-span-5">
+                <div class="col-span-11 lg:col-span-5">
                     @if (isset($data['cari']))
                         @if ($data['kondisi'] === 0)
                             <div class="w-full bg-gray-300 border-gray-700 border-2 px-3 h-28 py-2 rounded-md">

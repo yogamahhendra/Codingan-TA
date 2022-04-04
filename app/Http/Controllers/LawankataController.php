@@ -8,7 +8,6 @@ class LawankataController extends Controller
 {
     public function lawankata(Request $request)
     {
-        
         $tingkatan = array("AlusSor", "AlusSinggih", "AlusMider", "Andap", "Kasar");
         $tingkatan2 = array(".asor", ".asi", ".ami", ".andap", ".kasar");
         $tingkatan3 = array("Bahasa Bali Alus Sor", "Bahasa Bali Alus Singgih", "Bahasa Bali Alus Mider", "Bahasa Bali Andap", "Bahasa Bali Kasar");
@@ -59,6 +58,13 @@ class LawankataController extends Controller
                     foreach ($querydata2 as $item) {
                         array_push($listlawankata, $this->parseData($item->kata->getUri()));
                     }
+                    $listlawankata=array_unique($listlawankata);
+                    $c=0;
+                    foreach ($listlawankata as $item){
+                        $listlawankata2[$c] = $item;
+                        $c++;
+                    }
+                    $listlawankata=$listlawankata2;
                     $i=0;
                     foreach ($listlawankata as $item) {
                         $item2=pathinfo($item,PATHINFO_FILENAME);

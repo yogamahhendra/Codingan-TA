@@ -6,9 +6,9 @@
     <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 @endsection
 @section('content')
-    <div class="mx-auto md:w-9/12" data-aos="fade" data-aos-delay="200" data-aos-duration="700">
+    <div class="mx-auto w-11/12 lg:w-10/12 laptopl:w-9/12" data-aos="fade" data-aos-delay="200" data-aos-duration="700">
         <form action="" method="GET">
-            <div class="grid grid-cols-3 gap-10 h-full mt-6">
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-10 h-full mt-6">
                 <div class="">
                     @php
                         $j = count($data['listtingkatan']);
@@ -90,7 +90,7 @@
                 @if ($data['jumlahdata'] == 0)
                     <p class="font-semibold text-lg text-red-600 mt-6">Data tidak ditemukan</p>
                 @else
-                    <div class="grid grid-cols-3 mt-8 mb-10">
+                    <div class="grid grid-cols-2 lg:grid-cols-3 mt-8 mb-10">
                         <div class="col-span-2">
                             <div class="grid grid-cols-2 gap-7 px-4 py-1 font-semibold bg-bali-600 text-bali-50">
                                 <div>
@@ -122,7 +122,7 @@
                                 @endforeach
                             </div>
                         </div>
-                        <div class="ml-4 px-4 py-4 rounded-md bg-gray-300 h-max">
+                        <div class="col-span-2 mt-10 lg:mt-0 lg:col-span-1 lg:ml-4 px-4 py-4 rounded-md bg-gray-300 w-full h-max">
                             <p class="pl-4 font-semibold italic mb-2">Query :</p>
                             <p class="pl-4 font-semibold">{{ $data['query'] }}</p>
                         </div>

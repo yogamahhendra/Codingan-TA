@@ -71,7 +71,8 @@ class PencarianController extends Controller
 
         if ($request->cari == "cari") {
             $cari = true;
-            $sql = 'SELECT * WHERE {';
+            $sql = 'SELECT * WHERE {
+                ';
             if ($request->caribentuk === NULL && $request->caritingkatan === NULL && $request->carikategori === NULL && $request->cariawalan === NULL && $request->carisisipan === NULL && $request->cariakhiran === NULL) {
                 $kondisi=0;
             } elseif ($request->caritingkatan === NULL) {

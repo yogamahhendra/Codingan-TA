@@ -475,7 +475,7 @@
                         @php $kata = "bentuk"; @endphp
                         @foreach (DetailController::sameData($detail, $kata) as $dtl)
                             <p class="text-xl font-bold my-2 {{ $dtl != '-' ? 'hover:underline' : '' }}"><a
-                                    {{ $dtl != '-' ? 'href=' . $dtl : '' }}>
+                                    {{ $dtl != '-' ? 'href=/penjelajahan?penjelajahan=bentuk&cari=cari' : '' }}>
                                     {{ ucwords(str_replace('_', ' ', $dtl), ' ') }}</a></p>
                         @endforeach
                     </div>
@@ -506,7 +506,7 @@
                         @php $kata = "kategori"; @endphp
                         @foreach (DetailController::sameData($detail, $kata) as $dtl)
                             <p class="text-xl font-bold my-2 {{ $dtl != '-' ? 'hover:underline' : '' }}"><a
-                                    {{ $dtl != '-' ? 'href=' . $dtl : '' }}>
+                                    {{ $dtl != '-' ? 'href=/penjelajahan?penjelajahan=kategori&cari=cari' : '' }}>
                                     {{ ucwords(str_replace('_', ' ', $dtl), ' ') }}</a></p>
                         @endforeach
                     </div>
@@ -514,25 +514,21 @@
                         <p class="text-sm font-bold text-gray-600">Awalan (Pangater)</p>
                         @php $kata = "awalan"; @endphp
                         @foreach (DetailController::sameData($detail, $kata) as $dtl)
-                            <p class="text-xl font-bold my-2 {{ $dtl != '-' ? 'hover:underline' : '' }}"><a
-                                    {{ $dtl != '-' ? 'href=' . $dtl : '' }}>
-                                    {{ ucwords(str_replace('_', ' ', $dtl), ' ') }}</a></p>
+                            <p class="text-xl font-bold my-2 "><a>{{ ucwords(str_replace('_', ' ', $dtl), ' ') }}</a></p>
                         @endforeach
                     </div>
                     <div class="rounded-md bg-gray-200 px-5 py-4">
                         <p class="text-sm font-bold text-gray-600">Sisipan (Seselan)</p>
                         @php $kata = "sisipan"; @endphp
                         @foreach (DetailController::sameData($detail, $kata) as $dtl)
-                            <p class="text-xl font-bold my-2 {{ $dtl != '-' ? 'hover:underline' : '' }}"><a
-                                    {{ $dtl != '-' ? 'href=' . $dtl : '' }}> {{ str_replace('_','',$dtl) }}</a></p>
+                            <p class="text-xl font-bold my-2"><a> {{ str_replace('_','',$dtl) }}</a></p>
                         @endforeach
                     </div>
                     <div class="rounded-md bg-gray-200 px-5 py-4">
                         <p class="text-sm font-bold text-gray-600">Akhiran (Pangiring)</p>
                         @php $kata = "akhiran"; @endphp
                         @foreach (DetailController::sameData($detail, $kata) as $dtl)
-                            <p class="text-xl font-bold my-2 {{ $dtl != '-' ? 'hover:underline' : '' }}"><a
-                                    {{ $dtl != '-' ? 'href=' . $dtl : '' }}> {{ str_replace('_','',$dtl) }}</a></p>
+                            <p class="text-xl font-bold my-2 "><a> {{ str_replace('_','',$dtl) }}</a></p>
                         @endforeach
                     </div>
                     <div class="rounded-md bg-gray-200 px-5 py-4">
