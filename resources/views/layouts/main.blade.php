@@ -75,11 +75,11 @@
                         </div>
                     </div>
                 </div> --}}
-                    <a class="pl-4 py-2 mt-2 text-sm bg-transparent rounded-lg md:mt-0 md:ml-4 text-gray-600 hover:text-bali-600  {{ $title === 'Penjelajahan' ? 'text-bali-300 font-extrabold' : '' }}"
+                    <a class="pl-4 py-2 mt-2 text-sm bg-transparent rounded-lg md:mt-0 md:ml-4 text-gray-600 hover:text-bali-300  {{ $title === 'Penjelajahan' ? 'text-bali-300 font-extrabold' : '' }}"
                         href="/penjelajahan">Penjelajahan</a>
-                    <a class="pl-4 py-2 mt-2 text-sm  bg-transparent rounded-lg md:mt-0 md:ml-4 text-gray-600 hover:text-bali-600 {{ $title === 'Pencarian' ? 'text-bali-300  font-extrabold' : '' }}"
+                    <a class="pl-4 py-2 mt-2 text-sm  bg-transparent rounded-lg md:mt-0 md:ml-4 text-gray-600 hover:text-bali-300 {{ $title === 'Pencarian' ? 'text-bali-300  font-extrabold' : '' }}"
                         href="/pencarian">Pencarian</a>
-                    <a class="pl-4 py-2 mt-2 text-sm  bg-transparent rounded-lg md:mt-0 md:ml-4 text-gray-600 hover:text-bali-600 {{ $title === 'Lawan Kata' ? 'text-bali-300 font-extrabold' : '' }}"
+                    <a class="pl-4 py-2 mt-2 text-sm  bg-transparent rounded-lg md:mt-0 md:ml-4 text-gray-600 hover:text-bali-300 {{ $title === 'Lawan Kata' ? 'text-bali-300 font-extrabold' : '' }}"
                         href="/lawankata">Lawan Kata</a>
                 </nav>
             </div>
