@@ -25,11 +25,11 @@
                     </div>
                     <div class="">
                         <button onclick="location.href='/pencarian'" tyoe="button"
-                            class="w-max rounded-md bg-lime-100 text-lime-700 text-sm font-semibold px-4 py-2 px-4 py-2 transition ease-in-out hover:translate-x-0 hover:scale-105 duration-75 hover:bg-lime-200">Pencarian</button>
+                            class="w-max rounded-md bg-lime-100 text-lime-700 text-sm font-semibold px-4 py-2 transition ease-in-out hover:translate-x-0 hover:scale-105 duration-75 hover:bg-lime-200">Pencarian</button>
                     </div>
                     <div class="">
                         <button onclick="location.href='/lawankata'" tyoe="button"
-                            class="w-max rounded-md bg-teal-100 text-teal-700 text-sm font-semibold px-4 py-2 px-4 py-2 transition ease-in-out hover:translate-x-0 hover:scale-105 duration-75 hover:bg-teal-200">Lawan
+                            class="w-max rounded-md bg-teal-100 text-teal-700 text-sm font-semibold px-4 py-2 transition ease-in-out hover:translate-x-0 hover:scale-105 duration-75 hover:bg-teal-200">Lawan
                             Kata</button>
 
                     </div>
@@ -37,15 +37,15 @@
                 <div class="grid grid-cols-3 md:grid-cols-2 lg:hidden gap-3 mt-5">
                     <div>
                         <button onclick="location.href='/penjelajahan'" tyoe="button"
-                            class="w-full rounded-md bg-orange-100 text-sm font-semibold text-orange-700 px-4 py-2 hover:bg-orange-200">Penjelajahan</button>
+                            class="w-full rounded-md bg-orange-100 text-sm font-semibold text-orange-700 px-4 py-2 transition ease-in-out hover:translate-x-0 hover:scale-105 duration-75 hover:bg-orange-200">Penjelajahan</button>
                     </div>
                     <div class="">
                         <button onclick="location.href='/pencarian'" tyoe="button"
-                            class="w-full rounded-md bg-lime-100 text-lime-700 text-sm font-semibold px-4 py-2 bg-lime-200">Pencarian</button>
+                            class="w-full rounded-md bg-lime-100 text-lime-700 text-sm font-semibold px-4 py-2 transition ease-in-out hover:translate-x-0 hover:scale-105 duration-75 hover:bg-lime-200">Pencarian</button>
                     </div>
                     <div class="">
                         <button onclick="location.href='/lawankata'" tyoe="button"
-                            class="w-full rounded-md bg-teal-100 text-teal-700 text-sm font-semibold px-4 py-2 bg-teal-200">Lawan
+                            class="w-full rounded-md bg-teal-100 text-teal-700 text-sm font-semibold px-4 py-2 transition ease-in-out hover:translate-x-0 hover:scale-105 duration-75 hover:bg-teal-200">Lawan
                             Kata</button>
 
                     </div>
