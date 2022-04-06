@@ -680,6 +680,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_benda"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬳᬤᬦ᭄</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Men Balu lantas nakonang adan anak cerike ento.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -694,6 +695,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_sifat"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬳᬕᭂᬗ᭄</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Duaning proyek ageng indik panglimbak kasusastraan duk masa Dharmawangsa niki, akeh wastan genah ring Mahabharata kadadosang wastan genah ring Jawi nyantos mangkin.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -708,16 +710,17 @@
     
 
 
-    <!-- http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#ake.andap -->
+    <!-- http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#ake.kasar -->
 
-    <owl:NamedIndividual rdf:about="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#ake.andap">
-        <rdf:type rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#Andap"/>
+    <owl:NamedIndividual rdf:about="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#ake.kasar">
+        <rdf:type rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#Kasar"/>
         <BalineseLanguange:memilikiBahasaBaliAlusSinggih rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#gelah.asi"/>
         <BalineseLanguange:memilikiBahasaBaliAlusSor rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#titiang.asor"/>
-        <BalineseLanguange:memilikiBahasaBaliKasar rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#cang.kasar"/>
+        <BalineseLanguange:memilikiBahasaBaliAndap rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#cang.andap"/>
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_ganti"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬳᬓᬾ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Apang makejang nawang yen ake mula anak Buleleng.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -732,6 +735,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_sifat"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬳᬮᬶᬢ᭄</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Kadek lan Satriya kalih anak alit sane idup madampingan, masawitra nanging mabinayan agama.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -740,7 +744,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#anda.ina">
         <rdf:type rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#Indonesia"/>
-        <BalineseLanguange:memilikiBahasaBaliAndap rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#iba.andap"/>
+        <BalineseLanguange:memilikiBahasaBaliAndap rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#iba.kasar"/>
         <BalineseLanguange:memilikiBahasaBaliKasar rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#anda.ina"/>
     </owl:NamedIndividual>
     
@@ -755,6 +759,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_benda"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬳᬗᬶᬦ᭄</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Nadaksara ada angin nglinus.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -789,6 +794,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_ganti"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬳᬧ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Lantas apa ane nyidang anggon nepasin disinformasine ento?</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -810,6 +816,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_benda"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬳᬧᬶ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Api damare ngancan ngedenang.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -833,6 +840,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_benda"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬳᬭᬦ᭄</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Disinformasikan i meme sane nenten kayun aran ipun kesobiyahang nike ngorang teken timpal-timpalnyene lan kerame tiyosan indik gatre WhatsApp punike.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -847,6 +855,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_benda"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬳᬲᬸ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Asu punika taler kakalahang.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -870,6 +879,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_kerja"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬩᬳᬂ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Baang tiang ngidih abedik.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -907,6 +917,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_benda"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬩᬢᬸ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Reraman tiange ngelah toko batu hias, nanging tiang dot masi ngelah usaha mandiri pang sing ngantosang warisan gen.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -928,6 +939,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_sifat"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬩᬯᬓ᭄</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Bajang-bajange jani demen gati macelana bawak.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -955,6 +967,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_benda"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬩᬾ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Kema lantas i Angsa ka tukad dangin desa, ditu ia nolih liu ada be.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -968,6 +981,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_sifat"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬩᭂᬓ᭄</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Kakawin Aji Palayon karipta olih Ida Bagus Putu Bek saking Griya Suci, Gianyar.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -981,6 +995,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_keterangan"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬩᬾᬦ᭄ᬚᬂ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Benjang benjang becikan menerima informasi sane nenten resmi.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -1018,6 +1033,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_bilangan"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬩᭂᬲᬶᬓ᭄</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Pan Adit ngelah montor besik.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -1039,6 +1055,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_benda"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬩᬸᬮᬦ᭄</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Kacaritayang payudan ring Kuruksetra tumiba ring bulan Desember.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -1051,13 +1068,13 @@
     
 
 
-    <!-- http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#cai.kasar -->
+    <!-- http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#cai.andap -->
 
-    <owl:NamedIndividual rdf:about="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#cai.kasar">
-        <rdf:type rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#Kasar"/>
+    <owl:NamedIndividual rdf:about="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#cai.andap">
+        <rdf:type rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#Andap"/>
         <BalineseLanguange:memilikiBahasaBaliAlusSinggih rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#ratu.asi"/>
         <BalineseLanguange:memilikiBahasaBaliAlusSor rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#ida.asor"/>
-        <BalineseLanguange:memilikiBahasaBaliAndap rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#iba.andap"/>
+        <BalineseLanguange:memilikiBahasaBaliKasar rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#iba.kasar"/>
         <BalineseLanguange:memilikiBahasaIndonesia rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#anda.ina"/>
         <BalineseLanguange:memilikiDialekBuleleng rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#nani.bll"/>
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
@@ -1068,14 +1085,14 @@
     
 
 
-    <!-- http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#cang.kasar -->
+    <!-- http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#cang.andap -->
 
-    <owl:NamedIndividual rdf:about="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#cang.kasar">
-        <rdf:type rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#Kasar"/>
+    <owl:NamedIndividual rdf:about="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#cang.andap">
+        <rdf:type rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#Andap"/>
         <BalineseLanguange:memilikiBahasaBaliAlusSinggih rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#gelah.asi"/>
         <BalineseLanguange:memilikiBahasaBaliAlusSor rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#titiang.asor"/>
-        <BalineseLanguange:memilikiBahasaBaliAndap rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#ake.andap"/>
-        <BalineseLanguange:memilikiBahasaBaliKasar rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#cang.kasar"/>
+        <BalineseLanguange:memilikiBahasaBaliKasar rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#ake.kasar"/>
+        <BalineseLanguange:memilikiBahasaBaliKasar rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#cang.andap"/>
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_ganti"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬘᬂ</BalineseLanguange:memilikiAksaraBali>
@@ -1097,6 +1114,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_sifat"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬘᭂᬦ᭄ᬤᭂᬓ᭄</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Cendek pakayun Ida Sang Prabu kadung suba sauh pangandika.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -1111,6 +1129,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_sifat"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬘᭂᬦᬶᬓ᭄</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Anak sampun biasa ngae jaja. Sampun mlajah uli cenik.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -1125,6 +1144,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_benda"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬘᬶᬢᭂᬂ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Di natah kubune, Anak Agung Alit papagina teken cicingne Pekak Giyor.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -1154,6 +1174,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_kerja"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬘᬶᬗᬓ᭄</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Ngiring cingak taler kaluwihannyane sekadi iraga sida makumpul sareng kaluwarga, sida ngawi jagate masandekan ngicalan polusi sane jele.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -1168,6 +1189,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_benda"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬘᬸᬗᬄ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Cunguhne ketut cara nyambu.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -1182,6 +1204,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_benda"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬘᬸᬗᬄ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Ia dot ngelah cunguh mancung.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -1195,6 +1218,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_bilangan"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬤᬤᬸᬳ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Edi ngrereh kamar dadua.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -1224,6 +1248,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_keterangan"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬤᬶᬩᬶ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Suba lantas semengan teka I Angsa ngalih I Kerkuak lakar ngajak ngalih be ane punduhanga dibi di tukad dangin desa.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -1269,6 +1294,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_sifat"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬳᬾᬦ᭄ᬤᬾᬧ᭄</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Pianakné éndép cara memenne.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -1295,6 +1321,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_benda"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬳᭂᬦᬾ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Tiang dot nawang adake dewek tiange ane lenan di gumine ene</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -1339,6 +1366,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_sifat"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬕᭂᬤᬾ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Awakne gede ganggas lan makaput aji plastik, gabus, lan botol plastik.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -1348,12 +1376,13 @@
     <owl:NamedIndividual rdf:about="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#gelah.asi">
         <rdf:type rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#AlusSinggih"/>
         <BalineseLanguange:memilikiBahasaBaliAlusSor rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#titiang.asor"/>
-        <BalineseLanguange:memilikiBahasaBaliAndap rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#ake.andap"/>
-        <BalineseLanguange:memilikiBahasaBaliKasar rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#cang.kasar"/>
+        <BalineseLanguange:memilikiBahasaBaliAndap rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#ake.kasar"/>
+        <BalineseLanguange:memilikiBahasaBaliKasar rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#cang.andap"/>
         <BalineseLanguange:memilikiBahasaIndonesia rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#saya.ina"/>
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_ganti"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬕᭂᬮᬄ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Nanging mangkin, margi puniki karasa gelah padidi, nénten wénten malih sepéda motor, mobil miwah sané tiosan, makejang sametoné sami pada ngoyong jumah ngiwasin sané mawasta Corona.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -1368,6 +1397,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_benda"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬭᭂᬦᬶ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Silih tunggil upacara ané ada ri kala Virus Corona ento nglimbak inggih punika upacara Rahina Nyepi miwah Ngembak Geni ané nemonin sasih kasanga utawi sasih Maret ané suba liwat.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -1396,6 +1426,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_benda"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬕᭂᬢᬶᬄ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Diastun I Bawang ajak I Kesuna tulia getih abungbung nanging ane besikan demen mogbog, ane besikan tuon pesan.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -1410,6 +1441,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_benda"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬕᬶᬕᬶ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">I Modo mapi-mapi sakit gigi, apang tusing milu ngigel, krana ia tusing bisa ngigel.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -1424,6 +1456,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_benda"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬕᬶᬕᬶ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">I Modo mapi-mapi sakit gigi, apang tusing milu ngigel, krana ia tusing bisa ngigel.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -1447,6 +1480,7 @@
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_kerja"/>
         <BalineseLanguange:menggunakanSisipan rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#_-um-"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬕᬸᬫᬦ᭄ᬢᬶ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Ring parwa kalih taler kasurat indik saluwir tingkah sane gumanti papa tur sane ngametuang punia hayu.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -1459,18 +1493,19 @@
     
 
 
-    <!-- http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#iba.andap -->
+    <!-- http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#iba.kasar -->
 
-    <owl:NamedIndividual rdf:about="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#iba.andap">
-        <rdf:type rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#Andap"/>
+    <owl:NamedIndividual rdf:about="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#iba.kasar">
+        <rdf:type rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#Kasar"/>
         <BalineseLanguange:memilikiBahasaBaliAlusSinggih rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#ratu.asi"/>
         <BalineseLanguange:memilikiBahasaBaliAlusSor rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#ida.asor"/>
-        <BalineseLanguange:memilikiBahasaBaliKasar rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#cai.kasar"/>
+        <BalineseLanguange:memilikiBahasaBaliAndap rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#cai.andap"/>
         <BalineseLanguange:memilikiBahasaIndonesia rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#anda.ina"/>
         <BalineseLanguange:memilikiDialekBuleleng rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#nani.bll"/>
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_ganti"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬳᬶᬩ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Iba mirib tusing nawang, uli awak kaine bisa pesu api.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -1484,6 +1519,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_keterangan"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬳᬶᬩᬶ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Ibi maan dasa kampil.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -1499,6 +1535,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_kerja"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬳᬶᬘᬾᬦ᭄</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Cingakine biangne nglaklak. “Icen ja tiang asiki biang,” atur okane. “Nah cening, kewala da oranga teken rakan ceninge.”</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -1508,12 +1545,13 @@
     <owl:NamedIndividual rdf:about="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#ida.asor">
         <rdf:type rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#AlusSor"/>
         <BalineseLanguange:memilikiBahasaBaliAlusSinggih rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#ratu.asi"/>
-        <BalineseLanguange:memilikiBahasaBaliAndap rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#iba.andap"/>
-        <BalineseLanguange:memilikiBahasaBaliKasar rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#cai.kasar"/>
+        <BalineseLanguange:memilikiBahasaBaliAndap rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#iba.kasar"/>
+        <BalineseLanguange:memilikiBahasaBaliKasar rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#cai.andap"/>
         <BalineseLanguange:memilikiBahasaIndonesia rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#anda.ina"/>
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_ganti"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬳᬶᬤ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Matur Suksma Antuk Ida dane sareng sami sane sampun Ngwacen Karangan Niki.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -1529,6 +1567,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_kerja"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬳᬶᬤᬶᬄ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Yan cai tusing nampah kai, apa ja idih cai kal baang.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -1551,6 +1590,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_benda"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬳᬶᬓᬸᬄ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Ikuh Naga Basuki ring monumen magenah nampek ring swambané.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -1565,6 +1605,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_benda"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬳᬶᬓᬸᬢ᭄</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">I Wayan ngetep ikut celeng</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -1579,6 +1620,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_benda"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬳᬓᬸᬢ᭄</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Pamungkasne, Gagakaking magisian ring ikut macane punika selami ring margi nuju swargan.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -1593,6 +1635,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_benda"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬳᬮᬢ᭄</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Indayang medalang ilat druene.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -1615,6 +1658,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_benda"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬳᬶᬭᬸᬂ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Protokol Kesehatan Covid-19 patut kalaksanayang olih masyarakat ritakala jagi medal saking jero nganggen masker utawi penekep cangkem lan irung.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -1636,6 +1680,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_bilangan"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬓᬮᬶᬄ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Kadek lan Satriya kalih anak alit sane idup madampingan, masawitra nanging mabinayan agama.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -1650,6 +1695,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_benda"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬓᬂᬦ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Ada ules siap Ejo Sambu, Sa Budi, Biying Pangajaran, Wangkas Kuning, Tegil Cakcak, Klau Biru Jambul Bang Karna Dimpil Karo lan ane lenan.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -1760,6 +1806,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_benda"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬓᬶᬧᬶᬂ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Gamang luh muani ane ngisi Made Kunci prajana kraik-kraik sambilanga nekep kuping.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -1774,6 +1821,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_benda"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬓᬸᬧᬶᬂ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Kuping tiange sakit.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -1787,6 +1835,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_benda"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬓᬸᬢᬸ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Ditu Dadong Raksasa nyiksik kutu.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -1809,6 +1858,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_tugas"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬮᬦ᭄</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Hoax Utawi Disinformasi inggih punika berita sane bohong utawi ten patut lan Palsu, memutar balikkan Fakta, sane beredar ring media social.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -1823,6 +1873,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_sifat"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬮᬦ᭄ᬢᬂ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Dot nyapok kedis mabaong lantang di malune.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -1837,6 +1888,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_benda"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬮᬬᬄ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Matan aine nyenter ngebusin kulit, makejang nanggehang bedak layah.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -1851,6 +1903,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_benda"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬮᬬᬄ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Matan aine nyenter ngebusin kulit, makejang nanggehang bedak layah.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -1881,6 +1934,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_benda"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬮᬶᬫ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Ablegag pangutsaha suba kautsahayang, uli sai ngumbah lima, tusing mapulpul, nganggo masker, mavaksin, kanti PPKM suba kajalanang.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -1895,6 +1949,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_benda"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬮᬶᬫ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Ring parwa lima wenten lalintihan para narapatine sane suci tur para maharsine saking purwamasa.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -1951,6 +2006,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_turunan"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_kerja"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬫᬤᬦ᭄</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Ditu ada punyan kayu mabunga mas, madan kayu kastuban.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -1972,6 +2028,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_keterangan"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬫᬦᬶ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Tiang megae anggon medaar buin mani, tiang megae anggon makan sewai-wai.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -1989,6 +2046,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_turunan"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_kerja"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬫᬧᬭᬩ᭄</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Wenten kacaritayang asura maparab Naraka, maduwe wewengkon kadatuan linggah pisan ring sisi kelod Himalayane, mawit saking Manipura nyantos Iran.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -2002,6 +2060,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_kerja"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬫᬭ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Mara gagaha petiné ento, saget misi anak cenik dadua luh muani enu idup.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -2016,6 +2075,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_benda"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬫᬢ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Biase ngae mata sipenan.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -2062,6 +2122,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_kerja"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬫᬢᬶ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Jejeh winayane ketara, lantas Ida ngeka daya mangdene anake cerik makadadua sida mati.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -2087,6 +2148,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_turunan"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_kerja"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬫᬯᬲ᭄ᬢ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Pamungkasne, sang atma rauh ring danu sane ning pisan mawasta pancake Tirtha, utawi Samanta Pancaka.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -2133,6 +2195,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_tugas"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬫᬶᬯᬄ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Nenten wantah Indonesia, nanging miwah marupa nandang antuk mekejang negara ring dunia.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -2147,6 +2210,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_tugas"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬫᬸᬯᬄ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Ento mawinan Ida meweh, wireh sinah antuk Ida I Marakarma muah Siti Patimah okan menyanidane.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -2173,8 +2237,8 @@
         <rdf:type rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#Buleleng"/>
         <BalineseLanguange:memilikiBahasaBaliAlusSinggih rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#ratu.asi"/>
         <BalineseLanguange:memilikiBahasaBaliAlusSor rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#ida.asor"/>
-        <BalineseLanguange:memilikiBahasaBaliAndap rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#iba.andap"/>
-        <BalineseLanguange:memilikiBahasaBaliKasar rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#cai.kasar"/>
+        <BalineseLanguange:memilikiBahasaBaliAndap rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#iba.kasar"/>
+        <BalineseLanguange:memilikiBahasaBaliKasar rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#cai.andap"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_ganti"/>
     </owl:NamedIndividual>
@@ -2190,6 +2254,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_ganti"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬦᬧᬶ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Iraga Anak Luh sane demen Nyebarin utawi ngedaran berita-berita utawi bebaosan ne Iraga ten uning Berita punika patut napi ten patut.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -2203,6 +2268,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_kerja"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬦᬯᬂ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Apa ke ada carane nawang yening informasi ne ento tusing patut?</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -2236,6 +2302,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_turunan"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_kerja"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬗᬫᬳᬂ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Memen tiange ngamaang tiang pipis.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -2253,6 +2320,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_turunan"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_kerja"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬗᭂᬤᬶᬄ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">yening iraga nenten uning, sepatutne ngedih ring anake pawikan.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -2269,6 +2337,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_turunan"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_kerja"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬗᭂᬦ᭄ᬢᭀᬲᬶᬦ᭄</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Sane mangkin Jaka Berung ngentosin Prabu Aryasena nyakra werti di Puri Ringin Anom.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -2286,6 +2355,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_turunan"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_kerja"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬗᬶᬘᬾᬦ᭄</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Kesempatan puniki pacang prasida keraih yening prasida ngicen jaminan ring para wisatawan ne indik kondisi aman saking resiko terjangkit Virus Covid-19 ritatkala kewentenan ring Bali.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -2303,6 +2373,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_turunan"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_kerja"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬗᬶᬤᬶᬄ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Teka lantas I Cicing gudig nagih ngidih bene I Kerkuak.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -2337,6 +2408,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_turunan"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_kerja"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬦᬸᬦᬲ᭄</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Ida Anake Agung raris nauhin pepatih idané, kandikayang nunas muyin baas sig Ki Dukuh Mas di Gili Mas.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -2350,6 +2422,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_ganti"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬜᬾᬦ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Yening ten iraga nyen buin?</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -2373,6 +2446,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_kerja"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬧᬤᭂᬫ᭄</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Manut sejarah, upacara Aci Tulak Tunggul puniki inggih punika upacara nulak sengkala duaning dumun akeh anak padem anyud utawi nyilem ring empelan punika.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -2390,6 +2464,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_turunan"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_benda"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬧᬦᬶᬗᬮᬦ᭄</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Paningalan ipunne mawarna soklat.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -2404,6 +2479,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_sifat"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬧᬦ᭄ᬚᬂ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Tiang tusing lakar mengeluh panjang lebar, yen dadi tiang ngemaang usul, asane lung yen iraga rakyat kecil lan aparat negara berkolaborasi ngelaksanayang protocol kesehatan.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -2445,6 +2521,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_benda"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬧᬭᬩ᭄</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">I Sigir kapica parab Prabu Dewantara, kasungkemin baan gumi jagat Ida Sang Prabu makejang.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -2519,6 +2596,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_ganti"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬧᬦᬶᬓᬶ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Ring Jaman Modern Puniki, Media social sane kautama berperan penting kaangen ngedarin berita-berita utawi informasi.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -2532,6 +2610,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_benda"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬭᬄ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Perang puputan inggih punika payudan ngantos ketelan rah sane kaping untat.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -2541,8 +2620,8 @@
     <owl:NamedIndividual rdf:about="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#ratu.asi">
         <rdf:type rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#AlusSinggih"/>
         <BalineseLanguange:memilikiBahasaBaliAlusSor rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#ida.asor"/>
-        <BalineseLanguange:memilikiBahasaBaliAndap rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#iba.andap"/>
-        <BalineseLanguange:memilikiBahasaBaliKasar rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#cai.kasar"/>
+        <BalineseLanguange:memilikiBahasaBaliAndap rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#iba.kasar"/>
+        <BalineseLanguange:memilikiBahasaBaliKasar rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#cai.andap"/>
         <BalineseLanguange:memilikiBahasaIndonesia rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#anda.ina"/>
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_ganti"/>
@@ -2569,6 +2648,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_benda"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬭᬸᬤᬶᬭ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Kwacan idané keni rudira sané milir saking tangan idané.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -2598,6 +2678,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_sifat"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬲᬭᬢ᭄</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Lelampahan istri ring tengah literasi digital inggih punika faktor sane sarat tur anggen jenela informasi, silih sinunggil ring tengah pola pengebag anak lan kanggen teknologi.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -2629,6 +2710,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_kerja"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬲᬾᬤ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Kakawin puniki madaging palampah sang atmane saking genah seda nyantos swargan utawi naraka.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -2650,6 +2732,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_bilangan"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬲᬶᬓᬶ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Tan pang siki, tan pang pindo sang mawa rat ngmedalang warah-warah, ngulati karahajengan sesamen manusa.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -2663,6 +2746,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_ganti"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬲᬶᬭ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Sapa sira sih sane ten Uning Tekening ne Maadan Handphone?</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -2676,6 +2760,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_benda"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬲᬹᬃᬬ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Sane mawinan iraga nyidang kena Hoax inggih punika iraga Aluh utawi Gampang percaya tekening berita-berita sane beredar, tanpa iraga uning tekening sapa sira sane ngedaran lan iraga ten Teliti antuk berita-berita sane kaedaran punika.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -2705,6 +2790,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_benda"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬢᬮᬄ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Yén peteng seduk, siapé dundun tundén mesuang taluh abesik.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -2717,6 +2803,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_benda"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬢᬦ᭄ᬤᬸᬓ᭄</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Dugas pidan kacerita cicinge ngelah tanduk tur maikut bawak.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -2739,6 +2826,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_benda"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬢᬗᬦ᭄</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Puniki ngawinang akeh maosang “gatra sajagat sampun wenten ring telapaking tangan”</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -2760,6 +2848,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_benda"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬢᬲᬶᬓ᭄</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Siosan saking nasi pradnyan, krama Hindune taler nunas loloh don kayu manis (Sauropus androgynus) sane madaging gendis, tasik lan asem utawi lunak.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -2773,6 +2862,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_benda"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬢᬳᬶᬦ᭄</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Om Swastiastu, perkenalkan parab tiang Emma, tuuh tyang 16 taun.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -2787,6 +2877,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_sifat"/>
         <BalineseLanguange:memilikiAksaraBali>ᬢᭂᬕᭂᬄ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Nanging tusing jalanina sawireh I Kedis Cangak pasti elah ngelidin tur makeber tegeh.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -2817,6 +2908,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬢᬶᬗᬮ᭄</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Tingal ja Dek Ulik, jeg jegeg pesan!</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -2834,12 +2926,13 @@
     <owl:NamedIndividual rdf:about="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#titiang.asor">
         <rdf:type rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#AlusSor"/>
         <BalineseLanguange:memilikiBahasaBaliAlusSinggih rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#gelah.asi"/>
-        <BalineseLanguange:memilikiBahasaBaliAndap rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#ake.andap"/>
-        <BalineseLanguange:memilikiBahasaBaliKasar rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#cang.kasar"/>
+        <BalineseLanguange:memilikiBahasaBaliAndap rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#ake.kasar"/>
+        <BalineseLanguange:memilikiBahasaBaliKasar rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#cang.andap"/>
         <BalineseLanguange:memilikiBahasaIndonesia rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#saya.ina"/>
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_ganti"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬢᬶᬢᬶᬬᬂ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Wantah Asapunika mungguing atur titiang.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -2854,6 +2947,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_benda"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬢᭀᬮᬶᬄ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Marasa seliwah, Wayan Sereg, Komang Segel, lan Ketut Gili saling tolih.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -2867,6 +2961,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_benda"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬢᭀᬬ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Ring rahina puniki, krama Hindune ring Bali matangi semeng pisan, sampun kenten malukat antuk toya anyar.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -2881,6 +2976,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_benda"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬢᬸᬮᬂ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Tulungin ja pesuang tulang ane nyelekak di kolongan icange.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -2895,6 +2991,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_benda"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬢᬸᬮᬂ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Tulungin ja pesuang tulang ane nyelekak di kolongan icange.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -2918,6 +3015,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_kerja"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬢᬸᬦᬲ᭄</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Nika sampun sane jagi tunas titiang.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -2931,6 +3029,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_benda"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬳᬸᬮᬫ᭄</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Nanging di ngidame pacang ngidamang ulam mas.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -2944,6 +3043,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_kerja"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬳᬸᬦᬶᬂ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Yening Iraga Uning lan Sadar Memahami berita Hoax nike Penting, Ten wenten malih Kasus Hoax beredar Ring Media social Kedepannya.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -2958,6 +3058,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_benda"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬳᬸᬦ᭄ᬢᬸ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Ida nyungkanang untu.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -2971,6 +3072,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_tugas"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬳᬸᬢᬯᬶ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Ring Jaman Modern Puniki, Media social sane kautama berperan penting kaangen ngedarin berita-berita utawi informasi.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -2984,6 +3086,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_benda"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬳᬸᬬᬄ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Keto masih tiang nyidaang madaarang nasi uyah lengis dogen tiang suba lega sing kodag-kodag.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -3011,6 +3114,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_benda"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬯᬂᬲ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Sampun selami a warsa puniki jagate keni gering agung Covid19.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -3026,6 +3130,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_benda"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬯᬲ᭄ᬢ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Indike puniki taler mapaiketan sareng wasta Tejakula.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -3039,6 +3144,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_benda"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬯᬢᬸ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Arya Ularan punika Patih jaman Pemerintah Raja Dalem Watu Renggong (Raja Klungkung).</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -3052,6 +3158,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_kerja"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬯᬯᬸ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">I Marakarma mapinunas mangda biang kuolomne kasedayang, wawu ngiringang ka puri.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -3080,6 +3187,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_tugas"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬯ᭄ᬬᬤᬶᬦ᭄</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Tiang demen malajah basa Bali wiadin basa Inggris.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
     
 
@@ -3106,6 +3214,7 @@
         <BalineseLanguange:menggunakanBentukKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_dasar"/>
         <BalineseLanguange:menggunakanKategoriKata rdf:resource="http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#kata_benda"/>
         <BalineseLanguange:memilikiAksaraBali xml:lang="ban">ᬬᬾᬄ</BalineseLanguange:memilikiAksaraBali>
+        <BalineseLanguange:memilikiContohKalimat xml:lang="ban">Yeh kija lakuna membahe.</BalineseLanguange:memilikiContohKalimat>
     </owl:NamedIndividual>
 </rdf:RDF>
 
