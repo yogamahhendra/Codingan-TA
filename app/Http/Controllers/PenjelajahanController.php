@@ -115,6 +115,7 @@ class PenjelajahanController extends Controller
                 }
                 $i = 1;
                 foreach ($result1 as $item) {
+                    $item = ucwords(str_replace('_',' ',$item),' ');
                     $penjelajahan[$item] = ${'data' . $i};
                     $i++;
                 }

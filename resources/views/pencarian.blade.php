@@ -7,6 +7,7 @@
 @endsection
 @section('content')
     <div class="mx-auto w-11/12 lg:w-10/12 laptopl:w-9/12" data-aos="fade" data-aos-delay="200" data-aos-duration="700">
+        <p class="mt-7"><label class="font-semibold text-lg">Pencarian</label></p>
         <form action="" method="GET">
             <div class="grid grid-cols-2 md:grid-cols-3 gap-10 h-full mt-6">
                 <div class="">

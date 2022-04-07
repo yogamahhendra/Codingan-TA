@@ -9,14 +9,14 @@
         integrity="sha512-nIwdJlD5/vHj23CbO2iHCXtsqzdTTx3e3uAmpTm4x2Y8xCIFyWu4cSIV8GaGe2UNVq86/1h9EgUZy7tn243qdA=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="logo icon" type="png" href="{{ secure_asset('/images/Logo.png') }}" />
+    <link rel="logo icon" type="png" href="{{ secure_asset('/images/Logo-icon.png') }}" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   
     <style>
         @font-face {
             font-family: Vimala;
-            src: url('{{ asset('/font/Vimala.ttf') }}');
+            src: url('{{ secure_asset('/font/Vimala.ttf') }}');
         }
 
     </style>
