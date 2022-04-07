@@ -23,7 +23,7 @@ class Controller extends BaseController
         RdfNamespace::set('xsd', '<http://www.w3.org/2001/XMLSchema#>');
         RdfNamespace::set('kbb', 'http://www.dpch.oss.web.id/Bali/BalineseLanguange.owl#');
 
-        $this->sparql = new Client('http://127.0.0.1:3030/ontologi-bali/query');
+        $this->sparql = new Client('http://www.lokapaladigital.com:3030/ontologi-bali/query');
     }
 
     public function parseData($str){

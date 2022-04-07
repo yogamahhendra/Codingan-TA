@@ -46,7 +46,7 @@
                 </div>
                 <nav :class="{'flex': open, 'hidden': !open}"
                     class="flex-col flex-grow pb-4 md:pb-0 hidden md:flex md:justify-end md:flex-row">
-                    <a class="px-4 py-2 mt-2 text-sm  bg-transparent rounded-lg  md:mt-0 md:ml-4 text-gray-600 hover:text-bali-600  {{ $title === 'Beranda' ? 'text-bali-300 font-extrabold' : '' }}"
+                    <a class="px-4 py-2 mt-2 text-sm  bg-transparent rounded-lg  md:mt-0 md:ml-4 text-gray-600 hover:text-bali-300  {{ $title === 'Beranda' ? 'text-bali-300 font-extrabold' : '' }}"
                         href="/">Beranda</a>
                     {{-- dropdown alpine --}}
                     {{-- <div @click.away="open = false" class="relative" x-data="{ open: false }">
