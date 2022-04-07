@@ -86,10 +86,12 @@ class LawankataController extends Controller
                     elseif($kata2 !== NULL){
                         $hasilkata = $kata2;
                     }
-                    $resultlvn = self::lsdata(
-                        $carilawan, // new string
-                        pathinfo($hasilkata, PATHINFO_FILENAME), // old string
-                    );
+                    if(isset($hasilkata)){
+                        $resultlvn = self::lsdata(
+                            $carilawan, // new string
+                            pathinfo($hasilkata, PATHINFO_FILENAME), // old string
+                        );
+                    }
                 }
             }
         }
