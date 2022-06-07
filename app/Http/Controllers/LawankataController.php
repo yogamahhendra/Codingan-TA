@@ -156,7 +156,6 @@ class LawankataController extends Controller
                 }
             }
         }
-        $distance=$matrix[$str1Length][$str2Length];
 
         return $matrix[$str1Length][$str2Length];
     }

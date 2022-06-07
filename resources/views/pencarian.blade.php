@@ -7,7 +7,14 @@
 @endsection
 @section('content')
     <div class="mx-auto w-11/12 lg:w-10/12 laptopl:w-9/12" data-aos="fade" data-aos-delay="200" data-aos-duration="700">
-        <p class="mt-7"><label class="font-semibold text-lg">Pencarian</label></p>
+        <div class="flex mt-4">
+            <div class="hover:bg-bali-500 hover:text-bali-50 bg-bali-100 text-bali-500 py-2 px-4 rounded-t-md{{ $title === 'Pencarian' ? ' bg-bali-500 text-bali-100 font-semibold' : '' }}">
+                <a href="/pencarian" class="mt-4">Pencarian Kriteria</a>
+            </div>
+            <div class="ml-1 hover:bg-bali-500 hover:text-bali-50 bg-bali-100 text-bali-500 py-2 px-4 rounded-t-md{{ $title === 'Pencarian Text' ? ' bg-bali-500 text-bali-100 font-extrabold' : '' }}">
+                <a href="/pencariantext" class="mt-4">Pencarian Text</a>
+            </div>
+        </div>
         <form action="" method="GET">
             <div class="grid grid-cols-2 md:grid-cols-3 gap-10 h-full mt-6">
                 <div class="">
@@ -103,9 +110,8 @@
                             </div>
                             <div class="">
                                 @php
-                                    array_multisort(array_column($data['pencarian'], 'namakata'), SORT_ASC, $data['pencarian']);
                                 @endphp
-                                @foreach ($data['pencarian'] as $item)
+                                @foreach ($data['paginationkata'] as $item)
                                     <div
                                         class="grid grid-cols-2 gap-7 px-4 py-2 {{ $i % 2 == 0 ? 'bg-bali-50' : 'bg-bali-100' }}">
                                         <div>
@@ -121,6 +127,11 @@
                                         @endphp
                                     </div>
                                 @endforeach
+                                <div class="mt-4">
+                                    @if ($data['jumlahdata'] > 12)
+                                        {{ $data['paginationkata']->links('pagination::tailwind') }}
+                                    @endif
+                                </div>
                             </div>
                         </div>
                         <div class="col-span-2 mt-10 lg:mt-0 lg:col-span-1 lg:ml-4 px-4 py-4 rounded-md bg-gray-300 w-full h-max">

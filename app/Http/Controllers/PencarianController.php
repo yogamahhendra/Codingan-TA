@@ -3,6 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Pagination\Paginator;
+use Illuminate\Support\Collection;
+use Illuminate\Pagination\LengthAwarePaginator;
 
 class PencarianController extends Controller
 {
@@ -23,6 +26,7 @@ class PencarianController extends Controller
         $resultawalan = [];
         $resultsisipan = [];
         $resultakhiran = [];
+        $paginationkata=NULL;
 
         foreach ($tingkatan as $item) {
             array_push($resulttingkatan, [
@@ -66,65 +70,63 @@ class PencarianController extends Controller
         }
         $resultkata = [];
         $kondisi = 0;
-        $sql=NULL;
-        $jumlahdata=0;
+        $sql = NULL;
+        $jumlahdata = 0;
 
         if ($request->cari == "cari") {
             $cari = true;
             $sql = 'SELECT * WHERE {
                 ';
             if ($request->caribentuk === NULL && $request->caritingkatan === NULL && $request->carikategori === NULL && $request->cariawalan === NULL && $request->carisisipan === NULL && $request->cariakhiran === NULL) {
-                $kondisi=0;
+                $kondisi = 0;
             } elseif ($request->caritingkatan === NULL) {
                 $kondisi++;
                 $sql = $sql . '{?kata a kbb:AlusSinggih}UNION{?kata a kbb:AlusMider}UNION{?kata a kbb:AlusSor}UNION{?kata a kbb:Andap}UNION{?kata a kbb:Kasar}{';
                 if ($request->caribentuk !== NULL) {
-                    $sql = $sql . '?kata kbb:menggunakanBentukKata kbb:' . $request->caribentuk. '.';
+                    $sql = $sql . '?kata kbb:menggunakanBentukKata kbb:' . $request->caribentuk . '.';
                 }
                 if ($request->carikategori !== NULL) {
-                    $sql = $sql . '?kata kbb:menggunakanKategoriKata kbb:' . $request->carikategori. '.';
+                    $sql = $sql . '?kata kbb:menggunakanKategoriKata kbb:' . $request->carikategori . '.';
                 }
                 if ($request->cariawalan !== NULL) {
-                    $sql = $sql . '?kata kbb:menggunakanAwalan kbb:' . $request->cariawalan. '.';
+                    $sql = $sql . '?kata kbb:menggunakanAwalan kbb:' . $request->cariawalan . '.';
                 }
                 if ($request->carisisipan !== NULL) {
-                    $sql = $sql . '?kata kbb:menggunakanSisipan kbb:' . $request->carisisipan. '.';
+                    $sql = $sql . '?kata kbb:menggunakanSisipan kbb:' . $request->carisisipan . '.';
                 }
                 if ($request->cariakhiran !== NULL) {
-                    $sql = $sql . '?kata kbb:menggunakanAkhiran kbb:' . $request->cariakhiran. '.';
+                    $sql = $sql . '?kata kbb:menggunakanAkhiran kbb:' . $request->cariakhiran . '.';
                 }
-                $sql = $sql. '}';
-            }
-            elseif ($request->caritingkatan !== NULL) {
+                $sql = $sql . '}';
+            } elseif ($request->caritingkatan !== NULL) {
                 $kondisi++;
-                $jumlahtingkatan=count($request->caritingkatan);
-                if($jumlahtingkatan === 1){
-                    $sql = $sql . '{?kata a kbb:'.$request->caritingkatan[0].'}{';
+                $jumlahtingkatan = count($request->caritingkatan);
+                if ($jumlahtingkatan === 1) {
+                    $sql = $sql . '{?kata a kbb:' . $request->caritingkatan[0] . '}{';
                     // $sql = $sql . '{?kata a kbb:AlusSinggih}UNION{?kata a kbb:AlusMider}UNION{?kata a kbb:Andap}{';
-                } elseif ($jumlahtingkatan >= 2){
-                    $sql = $sql . '{?kata a kbb:'.$request->caritingkatan[0].'}';
-                    for ($i=1;$i<$jumlahtingkatan;$i++)
-                    {
-                        $sql = $sql.'UNION{?kata a kbb:'.$request->caritingkatan[$i].'}';
+                } elseif ($jumlahtingkatan >= 2) {
+                    $sql = $sql . '{?kata a kbb:' . $request->caritingkatan[0] . '}';
+                    for ($i = 1; $i < $jumlahtingkatan; $i++) {
+                        $sql = $sql . 'UNION{?kata a kbb:' . $request->caritingkatan[$i] . '}';
                     }
                     $sql = $sql . '{';
                 }
                 if ($request->caribentuk !== NULL) {
-                    $sql = $sql . '?kata kbb:menggunakanBentukKata kbb:' . $request->caribentuk. '.';
+                    $sql = $sql . '?kata kbb:menggunakanBentukKata kbb:' . $request->caribentuk . '.';
                 }
                 if ($request->carikategori !== NULL) {
-                    $sql = $sql . '?kata kbb:menggunakanKategoriKata kbb:' . $request->carikategori. '.';
+                    $sql = $sql . '?kata kbb:menggunakanKategoriKata kbb:' . $request->carikategori . '.';
                 }
                 if ($request->cariawalan !== NULL) {
-                    $sql = $sql . '?kata kbb:menggunakanAwalan kbb:' . $request->cariawalan. '.';
+                    $sql = $sql . '?kata kbb:menggunakanAwalan kbb:' . $request->cariawalan . '.';
                 }
                 if ($request->carisisipan !== NULL) {
-                    $sql = $sql . '?kata kbb:menggunakanSisipan kbb:' . $request->carisisipan. '.';
+                    $sql = $sql . '?kata kbb:menggunakanSisipan kbb:' . $request->carisisipan . '.';
                 }
                 if ($request->cariakhiran !== NULL) {
-                    $sql = $sql . '?kata kbb:menggunakanAkhiran kbb:' . $request->cariakhiran. '.';
+                    $sql = $sql . '?kata kbb:menggunakanAkhiran kbb:' . $request->cariakhiran . '.';
                 }
-                $sql = $sql. '}';
+                $sql = $sql . '}';
             }
             $sql = $sql . '}';
             $querydata = $this->sparql->query($sql);
@@ -134,40 +136,30 @@ class PencarianController extends Controller
                         'namakata' => $this->parseData($item->kata->getUri())
                     ]);
                 }
-               $jumlah = count($resultkata);
+                $jumlah = count($resultkata);
 
-                for($i=0;$i<$jumlah;$i++)
-                {
-                    if(pathinfo($this->parseData($querydata[$i]->kata->getUri()), PATHINFO_EXTENSION) == 'asi')
-                    {
-                        $resultkata[$i]['tingkatankata']="Bahasa Bali Alus Singgih";
+                for ($i = 0; $i < $jumlah; $i++) {
+                    if (pathinfo($this->parseData($querydata[$i]->kata->getUri()), PATHINFO_EXTENSION) == 'asi') {
+                        $resultkata[$i]['tingkatankata'] = "Bahasa Bali Alus Singgih";
+                    } elseif (pathinfo($this->parseData($querydata[$i]->kata->getUri()), PATHINFO_EXTENSION) == 'asor') {
+                        $resultkata[$i]['tingkatankata'] = "Bahasa Bali Alus Sor";
+                    } elseif (pathinfo($this->parseData($querydata[$i]->kata->getUri()), PATHINFO_EXTENSION) == 'ami') {
+                        $resultkata[$i]['tingkatankata'] = "Bahasa Bali Alus Mider";
+                    } elseif (pathinfo($this->parseData($querydata[$i]->kata->getUri()), PATHINFO_EXTENSION) == 'andap') {
+                        $resultkata[$i]['tingkatankata'] = "Bahasa Bali Andap";
+                    } elseif (pathinfo($this->parseData($querydata[$i]->kata->getUri()), PATHINFO_EXTENSION) == 'kasar') {
+                        $resultkata[$i]['tingkatankata'] = "Bahasa Bali Kasar";
                     }
-                    elseif(pathinfo($this->parseData($querydata[$i]->kata->getUri()), PATHINFO_EXTENSION) == 'asor')
-                    {
-                        $resultkata[$i]['tingkatankata']="Bahasa Bali Alus Sor";
-                    }
-                    elseif(pathinfo($this->parseData($querydata[$i]->kata->getUri()), PATHINFO_EXTENSION) == 'ami')
-                    {
-                        $resultkata[$i]['tingkatankata']="Bahasa Bali Alus Mider";
-                    }
-                    elseif(pathinfo($this->parseData($querydata[$i]->kata->getUri()), PATHINFO_EXTENSION) == 'andap')
-                    {
-                        $resultkata[$i]['tingkatankata']="Bahasa Bali Andap";
-                    }
-                    elseif(pathinfo($this->parseData($querydata[$i]->kata->getUri()), PATHINFO_EXTENSION) == 'kasar')
-                    {
-                        $resultkata[$i]['tingkatankata']="Bahasa Bali Kasar";
-                    }
-                    
                 }
 
-                $jumlahdata=(count($querydata));
-
+                $jumlahdata = (count($querydata));
+                array_multisort(array_column($resultkata, 'namakata'), SORT_ASC, $resultkata);
+                $paginationkata = $this->paginate($resultkata)->withQueryString()->withPath('/pencarian');
             }
         } else if ($request->reset == "reset") {
             $cari = null;
             header("Location: /pencarian");
-            $jumlahdata=NULL;
+            $jumlahdata = NULL;
         } else {
             $cari = null;
         }
@@ -184,12 +176,26 @@ class PencarianController extends Controller
             "cari" => $cari,
             "kondisi" => $kondisi,
             "query" => $sql,
-            "jumlahdata" => $jumlahdata
+            "jumlahdata" => $jumlahdata,
+            "paginationkata" => $paginationkata
         ];
 
         return view('pencarian', [
             "title" => "Pencarian",
             "data" => $data,
         ]);
+    }
+
+    public function paginate($items, $perPage = 12, $page = null, $options = [])
+    {
+        $page = $page ?: (Paginator::resolveCurrentPage() ?: 1);
+        $items = $items instanceof Collection ? $items : Collection::make($items);
+        return new LengthAwarePaginator(
+            $items->forPage($page, $perPage),
+            $items->count(),
+            $perPage,
+            $page,
+            $options
+        );
     }
 }

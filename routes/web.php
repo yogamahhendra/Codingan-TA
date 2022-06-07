@@ -4,6 +4,7 @@ use App\Http\Controllers\DetailController;
 use App\Http\Controllers\LawankataController;
 use App\Http\Controllers\levenshteinController;
 use App\Http\Controllers\PencarianController;
+use App\Http\Controllers\PencarianTextController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PenjelajahanController;
 
@@ -26,9 +27,15 @@ Route::get('/', function () {
 
 Route::get('/penjelajahan', [PenjelajahanController::class, 'index']);
 
+Route::get('/penjelajahan/{class}', [PenjelajahanController::class, 'class']);
+
+Route::get('/penjelajahan/{class}/{individual}', [PenjelajahanController::class, 'individual']);
+
 Route::get('/detail/{katabali}', [DetailController::class, 'detail']);
 
 Route::get('/pencarian', [PencarianController::class, 'searching']);
+
+Route::get('/pencariantext', [PencarianTextController::class, 'searching']);
 
 Route::get('/lawankata', [LawankataController::class, 'lawankata']);
 
